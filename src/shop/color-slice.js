@@ -26,12 +26,16 @@ const colorSlice = createSlice({
                 state[color] = 0;
             }
         },
-        reset(state, action) {
+        min(state, action) {
             const { color } = action.payload;
             state[color] = 0;
-        }
+        },
+        max(state, action) {
+            const { color } = action.payload;
+            state[color] = 255;
+        },
     }
-})
+});
 
 export const colorActions = colorSlice.actions;
 export default colorSlice; 

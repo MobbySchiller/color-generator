@@ -1,7 +1,9 @@
 .color-box {
     margin: 10px;
-    padding: 4px;
+    padding: 12px;
     border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px 0 #666;
     text-align: center;
 }
 
@@ -11,11 +13,17 @@
 }
 
 .color-box__button {
-    margin: 3px;
-    padding: 4px 8px;
+    margin: 6px;
+    padding: 6px 12px;
     background-color: transparent;
     border: 1px solid black;
+    border-radius: 6px;
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.color-box__button:hover {
+    background-color: #000;
+    color: #fff;
 }

@@ -5,6 +5,6 @@ const store = configureStore({
     reducer: {
         color: colorSlice.reducer
     }
-})
+});
 
 export default store;
