@@ -1,0 +1,21 @@
+.color-box {
+    margin: 10px;
+    padding: 4px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.color-value {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.color-box__button {
+    margin: 3px;
+    padding: 4px 8px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
