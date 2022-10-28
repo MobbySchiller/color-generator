@@ -7,7 +7,7 @@ const Display = () => {
 
     const valueToHex = (color) => {
         const toHex = color.toString(16);
-        const hex = toHex < 10 ? `0${toHex}` : toHex;
+        const hex = toHex.length === 1 ? `0${toHex}` : toHex;
         return hex;
     }
 
